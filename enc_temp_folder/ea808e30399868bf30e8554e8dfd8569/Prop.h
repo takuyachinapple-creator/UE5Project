@@ -24,7 +24,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-	//创建一个虚幻引擎类，并允许在任何位置进行编辑
 	UPROPERTY(EditAnywhere);
 	class UStaticMeshComponent* MeshComp;
 };
